@@ -294,3 +294,13 @@
 4.哪些是稳定的排序方法，手写快排
 
 5.多级负载均衡怎么实现？
+
+
+
+
+
+
+
+### Memo:
+flatmap和map的区别：
+stream api 的 flatMap方法接受一个lambda表达式函数， 函数的返回值必须也是一个stream类型，flatMap方法最终会把所有返回的stream合并，map方法做不到这一点，如果用map去实现，会变成这样一个东西
